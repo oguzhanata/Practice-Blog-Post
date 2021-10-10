@@ -18,7 +18,7 @@ h2 {
 	font-weight: 500;
 }
 
-#container {
+.container {
 	width: 1000px;
 	margin: 20px auto;
 }
@@ -137,6 +137,14 @@ h2 {
 	opacity: 0.6;
 }
 
+.tags ul{
+	list-style-type: none;
+}
+
+.tags ul > li {
+	margin-bottom: 10px;
+}
+
 #other-posts ul {
 	list-style-type: none;
 }
@@ -177,4 +185,36 @@ h2 {
 	background-color: #363636;
 	border-color: #363636;
 
+}
+
+/*Navbar*/
+
+#nav {
+	background-color: #333;	
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	-webkit-transition: background-color 0.3s linear;
+}
+
+#nav li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #DD4453;
 }
